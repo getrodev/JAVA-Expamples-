@@ -35,6 +35,16 @@ public class PalindromeNum {
         originalInteger = num;
 
         // reversed integer is stored in variable
+        for( ;num != 0; num /= 10 ){
 
+            remainder = num % 10;
+            reversedInteger = reversedInteger * 10 + remainder;
+        }
+
+        // palindrome if originalInteger and reversedInteger are equal
+        if (originalInteger == reversedInteger)
+            System.out.println(originalInteger + " is a palindrome. ");
+        else
+            System.out.println(originalInteger + " is not a palindrome.");
     }
 }
