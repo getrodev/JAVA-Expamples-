@@ -14,6 +14,7 @@ public class MultiplicationTable {
  */
 
 // This time using the while loop
+/*
 public class MultiplicationTable {
     public static void main(String[] args) {
 
@@ -24,3 +25,60 @@ public class MultiplicationTable {
         }
     }
 }
+
+ */
+// Program to print multiplication table
+
+/*
+import java.util.Scanner;
+
+class MultiplicationTable {
+
+    public static void main(String args[]) {
+        int n, c;
+
+        System.out.println("Enter an integer to print it's multiplication table");
+
+        Scanner in = new Scanner(System.in);
+        n = in.nextInt();
+        System.out.println("Multiplication table of " + n);
+
+        for (c = 1; c <= 10; c++)
+            System.out.println(n + "*" + c + " = " + (n*c));
+    }
+}
+
+ */
+
+import java.util.Scanner;
+
+class MultiplicationTable {
+    public static void main(String args[]) {
+        int a, b, c, d;
+
+        System.out.println("Enter range of numbers to print their multiplication tables");
+        Scanner in = new Scanner(System.in);
+
+        a = in.nextInt();
+        b = in.nextInt();
+
+        for(c = a; c <= b; c++) {
+            System.out.println("Multiplication table of " +c);
+
+            for (d = 1; d <= 10; d++) {
+                System.out.println(c+"*"+d+" = "+(c*d));
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+

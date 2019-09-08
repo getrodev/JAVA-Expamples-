@@ -36,7 +36,10 @@ class BinarySearchEx {
             }
             middle = (first + last)/2;
         }
+
         if ( first > last )
             System.out.println(item + " is not found.\n");
     }
 }
+
+//Sshould be sorted befored searching the element..hence why program is not working.

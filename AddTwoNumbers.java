@@ -15,6 +15,7 @@ public class AddTwoNumbers {
 
 // Sum of two numbers using Scanner
 
+/*
 import java.util.Scanner;
 public class AddTwoNumbers2 {
 
@@ -33,3 +34,36 @@ public class AddTwoNumbers2 {
         System.out.println("Sum of these numbers: "+sum);
     }
 }
+ */
+/*
+import java.util.Scanner;
+
+class AddNumbers {
+    public static void main(String args[]) {
+        int x, y, z;
+
+        System.out.println("Enter two integers to calculate their sum");
+        Scanner in = new Scanner(System.in);
+
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x + y;
+
+        System.out.println("Sum of the integers = " + z);
+    }
+}
+ */
+
+import java.util.Scanner;
+import java.math.BigInteger;
+
+class AddingLargeNumbers {
+    public static void main(String[] args) {
+        String number1, number2;
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter first large number");
+        number1 = in.nextLine;
+    }
+}
+
